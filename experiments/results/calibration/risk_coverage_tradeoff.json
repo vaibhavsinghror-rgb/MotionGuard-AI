@@ -1,0 +1,58 @@
+[
+  {
+    "threshold": 0.5,
+    "coverage": 0.9932519280205655,
+    "accepted_count": 3091,
+    "total_count": 3112,
+    "accuracy_accepted": 0.974441928178583,
+    "error_rate": 0.025558071821417006
+  },
+  {
+    "threshold": 0.6,
+    "coverage": 0.9829691516709511,
+    "accepted_count": 3059,
+    "total_count": 3112,
+    "accuracy_accepted": 0.9800588427590716,
+    "error_rate": 0.019941157240928375
+  },
+  {
+    "threshold": 0.7,
+    "coverage": 0.9707583547557841,
+    "accepted_count": 3021,
+    "total_count": 3112,
+    "accuracy_accepted": 0.9834491890102615,
+    "error_rate": 0.01655081098973854
+  },
+  {
+    "threshold": 0.8,
+    "coverage": 0.9579048843187661,
+    "accepted_count": 2981,
+    "total_count": 3112,
+    "accuracy_accepted": 0.9872525997987253,
+    "error_rate": 0.012747400201274739
+  },
+  {
+    "threshold": 0.85,
+    "coverage": 0.9485861182519281,
+    "accepted_count": 2952,
+    "total_count": 3112,
+    "accuracy_accepted": 0.9888211382113821,
+    "error_rate": 0.011178861788617933
+  },
+  {
+    "threshold": 0.9,
+    "coverage": 0.9305912596401028,
+    "accepted_count": 2896,
+    "total_count": 3112,
+    "accuracy_accepted": 0.9899861878453039,
+    "error_rate": 0.0100138121546961
+  },
+  {
+    "threshold": 0.95,
+    "coverage": 0.8939588688946015,
+    "accepted_count": 2782,
+    "total_count": 3112,
+    "accuracy_accepted": 0.9920920201294033,
+    "error_rate": 0.00790797987059666
+  }
+]

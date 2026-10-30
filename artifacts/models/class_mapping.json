@@ -1,0 +1,20 @@
+{
+  "0": "Stand",
+  "1": "Sit",
+  "2": "Talk-sit",
+  "3": "Talk-stand",
+  "4": "Stand-sit",
+  "5": "Lay",
+  "6": "Lay-stand",
+  "7": "Pick",
+  "8": "Jump",
+  "9": "Push-up",
+  "10": "Sit-up",
+  "11": "Walk",
+  "12": "Walk-backward",
+  "13": "Walk-circle",
+  "14": "Run",
+  "15": "Stair-up",
+  "16": "Stair-down",
+  "17": "Table-tennis"
+}

@@ -1,0 +1,16 @@
+{
+  "dataset_name": "KU-HAR",
+  "doi": "10.17632/45f952y38r.1",
+  "source_page": "https://data.mendeley.com/datasets/45f952y38r/1",
+  "direct_download_url": "https://data.mendeley.com/public-files/datasets/45f952y38r/files/f2b31500-b2a4-48e6-be0b-ebf621c18d42/file_downloaded",
+  "dataset_version": "1.0",
+  "download_timestamp": "2026-10-29T21:57:27.080081+00:00",
+  "downloaded_archive_filename": "3.Time_domain_subsamples.zip",
+  "archive_sha256": "bb804c1338f75cff72e9714f086e0b548a8002baf74a2c6e74a422846e0851fb",
+  "primary_csv_filename": "Time_domain_subsamples.csv",
+  "csv_file_size_bytes": 332498387,
+  "csv_sha256": "a882398b13551e8c48a7b55fff037ae5b8e63f80fe0938d51b56df9d6db3a69d",
+  "license": "CC BY 4.0 / Open Access for academic research and modification",
+  "citation": "N. Sikder, A.-A. Nahid, 'KU-HAR: An Open Dataset for Heterogeneous Human Activity Recognition', Mendeley Data, V1, doi: 10.17632/45f952y38r.1",
+  "verification_status": "VERIFIED"
+}

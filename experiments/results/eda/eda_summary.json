@@ -1,0 +1,41 @@
+{
+  "dataset_name": "KU-HAR",
+  "total_windows": 20750,
+  "channels": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z"
+  ],
+  "samples_per_window": 300,
+  "sampling_rate_hz": 100,
+  "num_classes": 18,
+  "class_counts": {
+    "Stand": 1886,
+    "Sit": 1874,
+    "Talk-sit": 1797,
+    "Talk-stand": 1866,
+    "Stand-sit": 2178,
+    "Lay": 1813,
+    "Lay-stand": 1762,
+    "Pick": 1333,
+    "Jump": 666,
+    "Push-up": 480,
+    "Sit-up": 1005,
+    "Walk": 882,
+    "Walk-backward": 317,
+    "Walk-circle": 259,
+    "Run": 595,
+    "Stair-up": 798,
+    "Stair-down": 781,
+    "Table-tennis": 458
+  },
+  "engineered_feature_count": 144,
+  "split_counts": {
+    "train": 14525,
+    "val": 3112,
+    "test": 3113
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "roc_auc": 0.9726195219123506,
+  "pr_auc": 0.34480518193747306,
+  "mean_in_score": -0.09630154073238373,
+  "std_in_score": 0.06246517598628998,
+  "mean_ood_score": 0.10584631562232971,
+  "std_ood_score": 0.06490659713745117,
+  "held_out_class_id": 8,
+  "held_out_class_name": "Jump",
+  "in_distribution_count": 3012,
+  "out_of_distribution_count": 100,
+  "scientific_limitation": "Statistically detects deviation from normal training activities. Does NOT constitute clinical fall detection, injury diagnosis, or certified real-world hazard detection."
+}

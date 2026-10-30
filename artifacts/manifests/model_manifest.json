@@ -1,0 +1,24 @@
+{
+  "model_version": "1.0.0",
+  "model_name": "Gradient Boosting",
+  "created_timestamp": "2026-10-29T22:02:38.641574+00:00",
+  "selected_family": "classical",
+  "artifacts": {
+    "model_file": "best_classical_model.joblib",
+    "model_sha256": "fc8cd79d24acd6912fb162f1852f2e255ef90f2765b764e5d29c2924b5954133",
+    "metadata_file": "best_model_metadata.json",
+    "class_mapping": "class_mapping.json"
+  },
+  "validation_performance": {
+    "macro_f1": 0.9685302089064636,
+    "accuracy": 0.9710796915167095,
+    "balanced_accuracy": 0.9639392352831264,
+    "inference_latency_ms": 6.643939999630675
+  },
+  "dataset_manifest_reference": "D:\\project\\project 3\\data\\manifests\\dataset_manifest.json",
+  "known_limitations": [
+    "Dataset collected from 90 participants using smartphone sensors in controlled trials.",
+    "Not clinically validated for medical diagnostic fall detection or real-world safety certification.",
+    "Performance may vary under irregular sensor placements or sampling jitter."
+  ]
+}

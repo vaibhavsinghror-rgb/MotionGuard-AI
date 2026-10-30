@@ -1,0 +1,21 @@
+inference:
+  selected_model_path: "artifacts/models/best_model.pt"
+  model_metadata_path: "artifacts/models/best_model_metadata.json"
+  feature_scaler_path: "artifacts/preprocessors/feature_scaler.joblib"
+  class_mapping_path: "artifacts/models/class_mapping.json"
+  calibration_path: "artifacts/calibration/calibration.json"
+  model_manifest_path: "artifacts/manifests/model_manifest.json"
+  
+  default_confidence_threshold: 0.70
+  expected_channels: 6
+  expected_samples: 300
+  sample_rate_hz: 100
+  units:
+    acc: "m/s^2"
+    gyro: "rad/s"
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  title: "MotionGuard AI Inference Service"
+  version: "0.1.0"

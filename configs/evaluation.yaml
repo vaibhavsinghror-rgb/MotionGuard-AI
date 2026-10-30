@@ -1,0 +1,28 @@
+quality_gates:
+  min_val_macro_f1: 0.85
+  target_val_macro_f1: 0.90
+  min_val_accuracy: 0.85
+  max_inference_latency_ms: 50.0
+
+metrics:
+  - "accuracy"
+  - "balanced_accuracy"
+  - "macro_precision"
+  - "macro_recall"
+  - "macro_f1"
+  - "weighted_f1"
+
+calibration:
+  method: "temperature_scaling"
+  n_bins: 15
+  initial_temperature: 1.0
+  max_iterations: 100
+  learning_rate: 0.01
+
+abstention:
+  default_confidence_threshold: 0.70
+  evaluated_thresholds: [0.50, 0.60, 0.70, 0.80, 0.85, 0.90, 0.95]
+
+reporting:
+  output_dir: "experiments/results/evaluation"
+  confusion_matrix_normalize: "true"
